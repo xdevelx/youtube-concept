@@ -1,0 +1,30 @@
+{
+  "name": "christmas",
+  "version": "1.0.0",
+  "description": "Christmas Wordpress theme",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=development gulp build",
+    "prod": "cross-env NODE_ENV=production gulp build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "postcss": "^8.4.5",
+    "postcss-scss": "^4.0.2",
+    "sass": "^1.45.1",
+    "stylelint": "^14.0.1",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
